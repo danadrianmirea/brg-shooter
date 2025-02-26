@@ -303,7 +303,7 @@ public unsafe class BRG_Background : MonoBehaviour
 
         // read back the cell list with magnet and set intensity to 1
         int magnetCellsCount = m_magnetCells.Count;
-        if (magnetCellsCount > 0)
+        if (magnetCellsCount > 0 && false)
         {
             for (int i = 0; i < magnetCellsCount; i++)
             {
